@@ -24,163 +24,351 @@ p,
 body {
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-seri
+  font-family: "Roboto", sans-seri;
 }
-.container{
-    width: 1110px;
-    margin: 0 auto;
-    /* outline: 2px solid red; */
+.container {
+  width: 1110px;
+  margin: 0 auto;
+  /* outline: 2px solid red; */
 }
-.data{
-    height: 60px;
-    background-image: url(./img/footer-bg.png);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
+.data {
+  height: 60px;
+  background-image: url(./img/footer-bg.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
 }
-.data-div{
-    display: flex;
-     align-items: center;
-     justify-content: space-between;
+.data-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.tel-par{
- font-weight: 100;
- color: #caddea;
- font-size: 20px;
+.tel-par {
+  font-weight: 100;
+  color: #caddea;
+  font-size: 20px;
 }
-.tel-link{
-color: #caddea;
+.tel-link {
+  color: #caddea;
 }
-.login-par{
-
- font-weight: 400;
- color: white;
- font-size: 22px;
+.login-par {
+  font-weight: 400;
+  color: white;
+  font-size: 22px;
 }
-.tel-div, .login{
-    display: flex;
-    align-items: center;
-    gap: 35px;
+.tel-div,
+.login {
+  display: flex;
+  align-items: center;
+  gap: 35px;
 }
-.login-link{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.login-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
-.tabs-ul, .tab-item{
-    display: flex;
-    gap: 22px;
-    align-items: center;
-    justify-content: space-between;
+.tabs-ul,
+.tab-item {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: space-between;
 }
-.tabs{
-    background-color: #1b7fd0;
-    height: 40px;
-    display: flex;
-    align-items: center;
+.tabs {
+  background-color: #1b7fd0;
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
-.tab-title{
- font-weight: 400;
- color: white;
- font-size: 20px;
+.tab-title {
+  font-weight: 400;
+  color: white;
+  font-size: 20px;
 }
-.tab-line{
-    height: 15px;
-    width: 1px;
+.tab-line {
+  height: 15px;
+  width: 1px;
+  background-color: white;
+}
+.things-go-better-with-us {
+  background-color: #e6edf4;
+}
+.things-go-better-with-us-div {
+  background-image: url(./img/header-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 585px;
+}
+.message {
+  background-color: #caddea;
+  height: 62px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b7fd0;
+  font-size: 22px;
+  margin-top: 30px;
+}
+.offer-item {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  gap: 10px;
+  padding-top: 18px;
+}
+.offer-list {
+  padding-top: 30px;
+}
+.offer-title {
+  font-size: 22px;
+}
+.offer-paragraph {
+  width: 500px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #1b7fd0;
+}
+.buttons {
+  width: 524px;
+  flex-wrap: wrap;
+}
+.btn {
+  background: none;
+  border: none;
+  outline: 1px solid #1b7fd0;
+  width: 230px;
+  height: 30px;
+  color: #1b7fd0;
+  margin-top: 15px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.logo {
+  padding-top: 35px;
+}
+.get-price {
+  background-image: url(./img/get-price-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 290px;
+  display: flex;
+  align-items: center;
+}
+.get-price-text-div {
+  width: 1142px;
+  height: 50px;
+  background-color: #caddea;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get-price-title {
+  color: #1b7fd0;
+  font-size: 28px;
+  margin-left: 15px;
+}
+.sale-paragraph {
+  font-weight: 400;
+  color: #075da2;
+  font-size: 22px;
+  margin-right: 20px;
+}
+.paragraph-span {
+  font-size: 50px;
+  color: #dd0000;
+}
+.sale-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.input-for-ur-doc-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  padding-top: 20px;
+}
+.input-for-ur-doc {
+  width: 310px;
+  height: 35px;
+  background-color: #e9f7fe;
+  border: none;
+}
+.input-for-ur-doc:focus {
+  outline: none;
+}
+.input-for-ur-doc-paragraph,
+.total-price-p {
+  font-weight: 400;
+  color: white;
+  font-size: 16px;
+}
+.total-price-span {
+  font-size: 45px;
+}
+.order-btn {
+  width: 310px;
+  height: 40px;
+  background-color: #dd0000;
+  font-weight: 400;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.essay-section {
+  background-color: #f4f6fa;
+  height: 865px;
+  display: flex;
+  align-items: center;
+}
+.essay-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+}
+.essay-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 520px;
+  width: 282px;
+}
+.essay-item:hover {
+  background-color: white;
+}
+.essay-item:hover .pic-bg {
+  background-color: #075da2;
+}
+.essay-div {
+  width: 100%;
+  height: 50px;
+  background-color: #caddea;
+  color: #1b7fd0;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.essay-p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+.pic-bg {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: #caddea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.essay-title-list {
+  color: #1b7fd0;
+  font-size: 18px;
+  width: 247px;
+  text-align: center;
+  padding-top: 25px;
+}
+.essay-p-list {
+  font-size: 16px;
+  width: 260px;
+  padding-top: 30px;
+}
+.essay-p-list-wr {
+  font-size: 16px;
+  width: 260px;
+  padding-top: 9px;
+}
+.essay-btn-list {
+  background-color: #075da2;
+  border: none;
+  width: 120px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 90px;
+}
+.essay-btn-list2 {
+  background-color: #075da2;
+  border: none;
+  width: 120px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 17px;
+}
+.essay-btn-list3 {
+  background-color: #075da2;
+  border: none;
+  width: 120px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+.essay-btn-list4 {
+  background-color: #075da2;
+  border: none;
+  width: 120px;
+  height: 35px;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 52px;
+}
+.why-section {
+  background-image: url(./img/why-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 714px;
+  display: flex;
+  align-items: center;
+}
+.why-section-p{
+    font-size: 24px;
+    color: #e9f7fe;
+    text-align: center;
+    padding-top: 23px;
+}
+.num-div{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
     background-color: white;
-}
-.things-go-better-with-us{
-    background-color: #e6edf4;
-}
-.things-go-better-with-us-div{
-    background-image: url(./img/header-bg.png);
-        background-size: cover;
-    background-position: center;
-    height: 585px;
-}
-.message{
-    background-color: #caddea;
-    height: 62px;
-    width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 25PX;
+    font-weight: 600px;
     color: #1b7fd0;
+}
+.why-list-p{
+    color: white;
     font-size: 22px;
-    margin-top: 30px;
+    width: 250px;
+    padding-top: 20px;
 }
-.offer-item{
-    display: flex;
-    align-items: center;
-     font-weight: 400;
-     gap: 10px;
-     padding-top: 18px;
+.why-line{
+    width: 255px;
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
 }
-.offer-list{
-    padding-top: 30px;
-}
-.offer-title{
-    font-size: 22px;
-}
-.offer-paragraph{
-    width: 500px;
-}
-.circle{
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    background-color: #1b7fd0;
-}
-.buttons{
-    width: 524px;
-    flex-wrap: wrap;
-}
-.btn{
-    background: none;
-    border: none;
-    outline: 1px solid #1b7fd0;
-    width: 230px;
-    height: 30px;
-    color: #1b7fd0;
-    margin-top: 15px;
-    margin-left: 30px;
-    cursor: pointer;
-}
-.logo{
-    padding-top: 35px;
-}
-.get-price{
-    background-image: url(./img/get-price-bg.png);
-         background-size: cover;
-    background-position: center;
-    height: 290px;
-}
-.get-price-text-div{
-    width: 1142px;
-    height: 50px;
-    background-color: #caddea;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.get-price-title{
-    color: #1b7fd0;
-    font-size: 28px;
-    margin-left: 15px;
-}
-.sale-paragraph{
-    font-weight: 400;
-    color: #075da2;
-    font-size: 22px;
-    margin-right: 20px;
-}
-.paragraph-span{
- font-size: 50px;
- color: #dd0000;
-}
-.sale-div{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.why-list{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ padding-top: 50px;
 }
