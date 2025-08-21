@@ -29,7 +29,7 @@ body {
 .container {
   width: 1110px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 .data {
   height: 60px;
@@ -512,4 +512,293 @@ footer {
   color: #caddea;
   text-align: center;
   padding-top: 20px;
+}
+.burger-button{
+display: none;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container{
+    width: 900px;
+  }
+  .burger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  width: 65px;
+  height: 30px;
+}
+.burger-line {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.tabs-ul {
+  display: none; 
+  position: absolute;
+  top: 0px;
+  width: 245px;
+  height: 100vh;
+  left: 0;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu-open {
+  display: block; 
+}
+.tab-title{
+  color: #1b7fd0;
+}
+.login{
+  position: absolute;
+ padding-top: 100px; 
+ padding-left: 425px;
+}
+.tel-div{
+  margin-left: 90px;
+}
+.things-go-better-with-us-div{
+  width: 100%;
+}
+.mar-div{
+  margin-left: 25px;
+}
+.get-price-text-div{
+  width: 100%;
+}
+.essay-list{
+  flex-wrap: wrap;
+  width: 594px;
+  margin: 0 auto;
+}
+.essay-p-list-wr, .essay-p-list{
+  width: 265px;
+}
+.essay-section{
+  height: 1430px;
+}
+.why-section{
+  height: 765px;
+}
+.hiw-line{
+  width: 515px;
+}
+.footer-tabs-ul{
+  flex-wrap: wrap;
+}
+}
+@media (max-width: 768px) {
+    .container{
+    width: 720px;
+  }
+  .burger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  width: 65px;
+  height: 30px;
+}
+.burger-line {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.tabs-ul {
+  display: none; 
+  position: absolute;
+  top: 0px;
+  width: 245px;
+  height: 100vh;
+  left: 0;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu-open {
+  display: block; 
+}
+.tab-title{
+  color: #1b7fd0;
+}
+.login{
+  position: absolute;
+ padding-top: 100px; 
+ padding-left: 395px;
+}
+.tel-div{
+  margin-left: 90px;
+}
+.things-go-better-with-us-div{
+  width: 100%;
+}
+.mar-div{
+  margin-left: 25px;
+}
+.get-price-text-div{
+  width: 100%;
+}
+.essay-list{
+  flex-wrap: wrap;
+  width: 594px;
+  margin: 0 auto;
+}
+.essay-p-list-wr, .essay-p-list{
+  width: 265px;
+}
+.essay-section{
+  height: 1525px;
+}
+.why-section{
+  height: 910px;
+}
+.hiw-line{
+  width: 515px;
+}
+.sale-paragraph{
+  margin: 0;
+}
+.social-media-list{
+  gap: 15px;
+}
+.footer-tabs-ul{
+  flex-wrap: wrap;
+}
+footer{
+  height: 425px;
+}
+}
+@media (max-width: 480px) {
+      .container{
+    width: 435px;
+  }
+  .burger-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  width: 65px;
+  height: 30px;
+}
+.burger-line {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
+
+.tabs-ul {
+  display: none; 
+  position: absolute;
+  top: 0px;
+  width: 245px;
+  height: 100vh;
+  left: 0;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu-open {
+  display: block; 
+}
+.tab-title{
+  color: #1b7fd0;
+}
+.login{
+  position: absolute;
+ padding-top: 100px; 
+ padding-left: 115px;
+}
+.logo{
+  display: none;
+}
+.message{
+  margin: 0;
+  width: 375px;
+  height: 90px;
+}
+.buttons{
+  width: 305px;
+  margin: 0 auto;
+}
+.tel-div{
+  margin-left: 90px;
+}
+.things-go-better-with-us-div{
+  width: 100%;
+  background-image: none;
+}
+.mar-div{
+  margin-left: 25px;
+}
+.get-price{
+  height: 570px;
+}
+.paragraph-span{
+  font-size: 30px;
+}
+.get-price-text-div{
+  width: 100%;
+}
+.essay-list{
+  flex-wrap: wrap;
+  width: 282px;
+  margin: 0 auto;
+}
+.essay-p-list-wr, .essay-p-list{
+  width: 265px;
+}
+.essay-section{
+  height: 2725px;
+}
+.why-section{
+  height: 1155px;
+}
+.how-it-works-div{
+  display: block;
+}
+.how-it-works-section{
+  height: 1050px;
+}
+.why-list-p{
+  width: 430px;
+}
+.banks-cards{
+  display: none;
+}
+.hiw-line{
+  width: 515px;
+}
+.sale-paragraph{
+  margin: 0;
+}
+.links-list{
+  display: none;
+}
+.social-media-list{
+  gap: 15px;
+}
+.footer-tabs-ul{
+  flex-wrap: wrap;
+}
+.footer-line{
+  display: none;
+}
+footer{
+  height:155px;
+}
 }
